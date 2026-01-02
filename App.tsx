@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { 
   LayoutDashboard, BookOpen, MessageSquare, User, TrendingUp, 
   Award, LogOut, Search, Play, CheckCircle,
@@ -218,6 +219,7 @@ const App: React.FC = () => {
           )}
         </div>
       </div>
+      <Analytics />
     </div>
   );
 };
