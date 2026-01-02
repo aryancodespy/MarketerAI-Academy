@@ -1,0 +1,8 @@
+{
+  "name": "MarketerAI Academy",
+  "description": "A comprehensive digital marketing learning platform with AI tutoring, personalized paths, and gamified progress across 17 marketing pillars.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
