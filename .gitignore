@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnpm/
+pnpm-lock.yaml
+
+# Build
+dist/
+build/
+.next/
+.turbo/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.tsbuildinfo
+.parcel-cache/
+.vercel/
+.cache/
